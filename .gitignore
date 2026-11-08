@@ -1,0 +1,20 @@
+# Secrets
+firmware/**/secrets.h
+*.pem
+*.pem.crt
+*.pem.key
+*.key
+
+# Old sketches with embedded credentials
+archive/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.zip
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
